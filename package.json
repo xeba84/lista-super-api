@@ -1,0 +1,19 @@
+{
+  "name": "lista-super-api",
+  "version": "0.0.1",
+  "main": "start.js",
+  "private": true,
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.2.0",
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9",
+    "promise-mysql": "^3.3.1"
+  },
+  "scripts": {
+    "mystart": "nodemon ./src/start.js"
+  }
+}

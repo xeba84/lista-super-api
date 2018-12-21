@@ -1,0 +1,21 @@
+
+100-Persistir la Lista de Productos... cómo? Node.js?... qué API?
+    -DB-> NodeJs + MySql
+    -WS-> NodeJS + Express
+
+I)Modelo de datos:
+    OK->Agregar tabla users
+    OK->Agregar tabla user_prod
+    OK->Insertar todos los productos que se me ocurran
+    .Agregar tabla list
+    .Agregar tabla list_prod
+    .Agregar tabla mandado
+    .Agregar tabla mandado_prod
+
+II)Completar Mapper+Service de Product
+    OK->Agregar entidad answer basada en el Fwk40
+    .Completar los métodos buscando normalizar
+    .Agregar logueo en archivo
+    .
+
+III)Crear Servicio de User->Login
